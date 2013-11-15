@@ -47,7 +47,7 @@
  							<label for="identification_code"/> 
  							<field name="identification_code" style="width: 17%%"/> 
  							<label for="dob"/> 
- 							<field name="dob" style="width: 15%%"/> 
+ 							<field name="dob" style="width: 15%%" on_change="_compute_age(dob, context)"/>
  							<label for="age"/> 
  							<field name="age" style="width: 8%%"/> 
                          </div> 
